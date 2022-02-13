@@ -1,0 +1,7 @@
+query getCharacter($id: ID!){
+  Character(id: $id){
+    id
+    name
+    category
+  }
+}
